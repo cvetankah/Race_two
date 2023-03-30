@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <linearGradient x1="50.6805546%" y1="2.31160713%" x2="50.0134134%" y2="98.074615%" id="linearGradient-1">
+            <stop stop-color="#F2F4FB" offset="0%"></stop>
+            <stop stop-color="#E9ECF5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="eit-RACE-2020-home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03_prereg_sponsorship" transform="translate(-388.000000, -2120.000000)">
+            <g id="Group" transform="translate(388.000000, 2120.000000)">
+                <circle id="Oval" fill="url(#linearGradient-1)" transform="translate(15.000000, 15.000000) scale(-1, 1) translate(-15.000000, -15.000000) " cx="15" cy="15" r="15"></circle>
+                <polyline id="Rectangle" stroke="#69759C" stroke-width="2" transform="translate(14.913812, 13.842744) rotate(-315.000000) translate(-14.913812, -13.842744) " points="18.2772046 8.84274399 18.2772046 18.842744 11.5504189 18.842744"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

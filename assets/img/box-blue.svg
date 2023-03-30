@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="154px" height="108px" viewBox="0 0 154 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 21</title>
+    <g id="eit-RACE-2020-home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="08_regopen_race2023" transform="translate(-805.000000, -1050.000000)">
+            <g id="Group-19" transform="translate(610.888138, 1045.000000)">
+                <g id="Group-21" transform="translate(194.305931, 5.000000)">
+                    <path d="M10,0 L143.305931,0 C148.828778,-1.01453063e-15 153.305931,4.4771525 153.305931,10 L153.305931,54 L153.305931,54 L0,54 L0,10 C-6.76353751e-16,4.4771525 4.4771525,-7.61826213e-16 10,0 Z" id="Rectangle" fill="#2D3C6D"></path>
+                    <path d="M0,54 L153.305931,54 L153.305931,98 C153.305931,103.522847 148.828778,108 143.305931,108 L10,108 C4.4771525,108 -1.10000309e-15,103.522847 0,98 L0,54 L0,54 Z" id="Rectangle" fill="#031241"></path>
+                    <circle id="Oval" fill="#030303" opacity="0.30031622" cx="15.1529653" cy="46.5" r="2.5"></circle>
+                    <circle id="Oval" fill="#030303" opacity="0.30031622" cx="15.1529653" cy="61.5" r="2.5"></circle>
+                    <circle id="Oval" fill="#030303" opacity="0.30031622" cx="137.652965" cy="46.5" r="2.5"></circle>
+                    <circle id="Oval" fill="#030303" opacity="0.30031622" cx="137.652965" cy="61.5" r="2.5"></circle>
+                    <line x1="15.1529653" y1="46.5" x2="15.1529653" y2="61.5" id="Line-2" stroke="#616F9F" stroke-width="2" stroke-linecap="round"></line>
+                    <line x1="137.652965" y1="46.5" x2="137.652965" y2="61.5" id="Line-2" stroke="#616F9F" stroke-width="2" stroke-linecap="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

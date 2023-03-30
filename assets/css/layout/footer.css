@@ -1,0 +1,95 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+    .footer-left {
+        display: flex;
+        flex-direction: row;
+        gap: 120px;
+        color: var(--color-white);
+        font-size: var(--font-size-small);
+        font-family: 'Titillium';
+        list-style: none;
+        line-height: 20px;
+        margin-left: 80px;
+        margin-top: 30px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.44;
+        letter-spacing: normal;
+    }
+
+        .footer-left span {
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+            .footer-left ul {
+                margin-top: 20px;
+                list-style: none;
+            }
+
+                .footer-left a {
+                    text-decoration: none;
+                    color: var(--color-white);
+                    font-size: var(--font-size-small);
+                    font-family: 'Titillium';
+                    cursor: pointer;
+                }
+
+    .footer-right img {
+        margin-top: 30px;
+        width: 60%;
+    }
+
+.footer-bottom {
+    display: inline-block;
+    color: white;
+    font-size: var(--font-size-extra-extra-small);
+    font-family: 'Titillium';
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 70px;
+}
+
+    .footer-bottom-icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        gap: 50px;
+        
+    }
+
+    .footer-bottom-links {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+        .footer-bottom-links span {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .footer-bottom-links nav {
+            align-items: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+        }
+
+            .footer-bottom-links a {
+                text-decoration: none;
+                color: var(--color-white);
+            }
+
+            .footer-bottom-links nav img {
+                margin-right: 10px;
+                height: 10px;
+            }
+

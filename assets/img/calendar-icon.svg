@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="91px" height="91px" viewBox="0 0 91 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 9</title>
+    <defs>
+        <linearGradient x1="50.6805546%" y1="2.31160713%" x2="50.0134134%" y2="98.074615%" id="linearGradient-1">
+            <stop stop-color="#F0F3F9" offset="0%"></stop>
+            <stop stop-color="#E9ECF5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="eit-RACE-2020-home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="10_regopen_programme_details" transform="translate(-1418.000000, -2686.000000)">
+            <g id="Group-6" transform="translate(379.000000, 2656.000000)">
+                <g id="Group-9" transform="translate(1039.000000, 30.000000)">
+                    <path d="M91,0 L91,90.4603271 L0.539672852,90.4603271 L0.539672852,0 L10.5396729,0 L10.5396729,0 C10.5396729,3.23031296 13.1583589,5.84899902 16.3886719,5.84899902 C19.6189848,5.84899902 22.2376709,3.23031296 22.2376709,0 L69.302002,0 L69.302002,0 C69.302002,3.23031296 71.920688,5.84899902 75.151001,5.84899902 C78.3813139,5.84899902 81,3.23031296 81,0 L91,0 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+                    <line x1="0.539672852" y1="11.5" x2="91" y2="11.5" id="Line" stroke="#FFFFFF"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

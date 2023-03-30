@@ -1,0 +1,21 @@
+:root {
+    --color-white: #fff;
+    --color-dark-blue: #031241;
+    --color-chalk-blue: #021242;
+    --color-red: #cd154f;
+    --color-reddish: #d94674;
+    --color-light-background: #e9ecf5;
+
+
+    --width-container: 1300px;
+
+
+    --font-size-extra-extra-small: 12px;
+    --font-size-extra-small: 14px;
+    --font-size-small: 16px;
+    --font-size-medium-to-small: 20px;
+    --font-size-medium: 24px;
+    --font-size-large: 28px;
+    --font-size-extra-large: 36px;
+    --font-size-extra-extra-large: 48px;
+}

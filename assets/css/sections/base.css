@@ -1,0 +1,45 @@
+section {
+    padding: 100px 70px;
+    position: relative;
+    background: var(--color-light-background);
+}
+
+    section .width-container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+.white {
+    background: var(--color-white);
+    position: relative;
+    padding-bottom: 100px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+    .white .width-container {
+        gap: 0;
+    }
+
+.red {
+    background: var(--color-red);
+    padding: 0 70px;
+    position: relative;
+    height: 544px;
+    
+}
+
+.blue {
+    background: var(--color-chalk-blue);
+    padding: 5px;
+    position: relative;
+}   
+
+.past-events {
+    padding-top: 0;
+}
+
+.partners {
+    padding-top: 0;
+}
