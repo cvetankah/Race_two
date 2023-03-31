@@ -48,7 +48,7 @@ a .header-button{
         margin-right: 10px;
     }
 
-    .video-button {
+    /* .video-button {
         border: 2px solid var(--color-red);
         width: 75px;
         height: 72px;
@@ -62,7 +62,7 @@ a .header-button{
 
     .video-button img {
         width: 60%;
-    }
+    } */
 
 .header-button-blue {
     background-color: var(--color-dark-blue);

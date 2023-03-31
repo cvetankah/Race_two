@@ -75,6 +75,7 @@
         background-image: url(../../img/bitmap.png);
         background-size: cover;
         height: 652px;
+        padding: 250px;
     }
     
         .hero-bottom-box-background .video {

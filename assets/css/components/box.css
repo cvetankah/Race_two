@@ -98,6 +98,10 @@
             border-top-left-radius: 20px;
         }
 
+        .three-boxes-box .darker {
+            filter: brightness(90%);
+        }
+
         .three-boxes-box .change {
             object-fit: cover;
             object-position: left;
@@ -107,10 +111,14 @@
             font-size: var(--font-size-small);
             font-family: 'Titillium';
             color: var(--color-dark-blue);
+            text-transform: uppercase;
             font-weight: bold;
             padding-left: 30px;
             width: 100%;
-            height: 211px;
+        }
+
+        .three-boxes-box-bottom {
+            padding-top: 30px;
         }
 
         .three-boxes-box p {
@@ -137,3 +145,58 @@
     border-top-left-radius: 20px;
     border-bottom-right-radius: 30px;
 }
+
+.three-boxes-box .youtube_red {
+    background-image: url(../../img/bitmap.png);
+    width: 100%;
+    background-size: cover;
+    height: 235px;
+    border-top-left-radius: 20px;
+    padding: 100px;
+}
+
+    .video_yt {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+        .big {
+            width: 70px;
+            height: 60px;
+            padding: 10px;
+            padding-left: 15px;
+            border: 2px solid var(--color-red);
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background-color: var(--color-red);
+            cursor: pointer;
+        }
+
+        .youtube_red .video-button {
+            border: 2px solid var(--color-red);
+            width: 40px;
+            height: 40px;
+            padding: 10px;
+            border-top-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background-color: var(--color-red);
+            cursor: pointer;
+        }
+
+        .big .triangle {
+            border-top: 20px solid transparent;
+            border-bottom: 20px solid transparent;
+            
+            border-left: 30px solid white;
+        }
+
+            .triangle {
+                margin: auto;
+                width: 0; 
+                height: 0; 
+                border-top: 10px solid transparent;
+                border-bottom: 10px solid transparent;
+                
+                border-left: 10px solid white;
+            }
