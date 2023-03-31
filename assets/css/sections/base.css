@@ -18,9 +18,9 @@ section {
     padding-top: 0;
 }
 
-    .white .width-container {
+    /* .white .width-container {
         gap: 0;
-    }
+    } */
 
 .red {
     background: var(--color-red);

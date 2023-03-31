@@ -35,13 +35,13 @@
         top: -20px;
     }
 
-    .heading-red span {
-        background: var(--color-white);
-    }
+.heading-red span {
+    background: var(--color-white);
+}
 
-    .red span {
-        background: var(--color-white);
-    }
+/* .red span {
+    background: var(--color-white);
+} */
 
 .sub-heading {
     color: var(--color-chalk-blue);
@@ -87,4 +87,18 @@
 .form .heading {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+h2 {
+    color: var(--color-dark-blue);
+    font-size: var(--font-size-extra-large);
+    font-weight: bold;
+    font-family: 'Titillium';
+    width: 582px;
+    height: 42px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.88;
+    letter-spacing: normal;
+    margin: 0 672.1px 37px 0;
 }

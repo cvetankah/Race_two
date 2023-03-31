@@ -6,10 +6,16 @@
 
     .sponsorship p {
         color: var(--color-chalk-blue);
-        font-size: var(--font-size-medium);
+        font-size: var(--font-size-extra-large);
+        font-family: 'Titillium';
         margin-top: 20px;
         margin-bottom: 20px;
         line-height: 25px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.22;
+        letter-spacing: normal;
     }
 
 .why-sponsor {
@@ -36,7 +42,7 @@
             margin: auto;
         }
 
-            .why-sponsor .section-box p {
+            .why-sponsor-background .section-box p {
                 padding-top: 50px;
                 padding-bottom: 50px;
                 font-weight: normal;
@@ -49,56 +55,8 @@
     padding-top: 50px;
 }
 
-    /* .expectations .three-boxes {
-        margin-bottom: 50px;
-    } */
 .testemonials {
     padding-top: 50px;
     padding-bottom: 50px;
     height: auto;
 }
-.horizontal-boxes li {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-}
-
-    .horizontal-boxes li img {
-        width: 50%;
-        border-top-left-radius: 30px;
-    }
-
-    .horizontal-boxes .text {
-        margin: auto;
-        width: 40%;
-        color: var(--color-dark-blue);
-        line-height: 20px;
-        padding: 60px ;
-    }
-    
-        .horizontal-boxes p {
-            font-size: var(--font-size-medium);
-            font-family: 'Titillium';
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 1.25;
-            letter-spacing: normal;
-            padding-bottom: 30px;
-        }
-
-        .horizontal-boxes .text .name {
-            font-size: var(--font-size-small);
-            font-family: 'Titillium';
-            font-weight: normal;
-            font-stretch: normal;
-            font-style: normal;
-            line-height: 1.5;
-            letter-spacing: normal;
-            font-weight: bold;
-        }
-
-        .horizontal-boxes .text span {
-            font-size: var(--font-size-small);
-        }
-
