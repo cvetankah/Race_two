@@ -200,3 +200,83 @@
                 
                 border-left: 10px solid white;
             }
+
+
+.expectations .three-boxes {
+    padding-bottom: 50px;
+}
+
+.expectations .three-boxes-box {
+    width: 100%;
+    height: 403px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: var(--color-red);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 30px;
+}
+
+    .expectations .three-boxes-box img {
+        width: 106px;
+        height: 106px;
+        margin: -35px auto auto auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        position: relative;
+    }
+
+    .expectations .three-boxes-box h3 {
+        color: var(--color-white);
+        margin: auto;
+        font-size: var(--font-size-medium);
+        font-family: 'Titillium';
+        padding: 20px 30px;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: center;
+    }
+
+    .expectations .three-boxes-box .para-wrap {
+        width: 100%;
+        height: 213px;
+        border-bottom-right-radius: 30px;
+        background-color: var(--color-reddish);
+    }
+    
+        .expectations .three-boxes-box p {
+            color: var(--color-white);
+            margin: auto;
+            font-size: var(--font-size-small);
+            font-family: 'Titillium';
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            margin-top: 30px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: left;
+        }
+
+.horizontal-boxes {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 20px 70px;
+}
+
+    .horizontal-boxes li {
+        background: var(--color-white);
+        /* height: 300px; */
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+        list-style: none;
+    }
+

@@ -35,6 +35,10 @@
         top: -20px;
     }
 
+    .heading-red span {
+        background: var(--color-white);
+    }
+
     .red span {
         background: var(--color-white);
     }
@@ -69,3 +73,18 @@
     .red .sub-heading {
         padding-bottom: 0;
     }
+
+.why-sponsor .red {
+        color: var(--color-white);
+        font-size: var(--font-size-medium);
+        padding: 20px 70px;
+    }
+
+.expectations .heading {
+    padding-top: 70px;
+}
+
+.form .heading {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

@@ -40,4 +40,13 @@
                 cursor: pointer;
                 font-weight: bold;
             }
+
+.header-blue {
+    padding: 5px 0 30px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: var(--color-chalk-blue);
+}
+
             
