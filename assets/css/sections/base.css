@@ -18,6 +18,13 @@ section {
     padding-top: 0;
 }
 
+.form-white {
+    background: var(--color-white);
+    position: relative;
+    margin: auto;
+    padding-top: 30px;
+}
+
     /* .white .width-container {
         gap: 0;
     } */

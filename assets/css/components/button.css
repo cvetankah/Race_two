@@ -135,3 +135,11 @@ a .header-button{
         width: 15px;
         height: 10px;
     }
+
+.form .button {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
