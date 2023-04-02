@@ -13,7 +13,7 @@ a .header-button img {
 
 a .header-button{
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 5px;
     color: var(--color-white);
     font-size: var(--font-size-small);
     font-family: 'Titillium';

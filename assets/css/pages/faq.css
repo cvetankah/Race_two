@@ -1,0 +1,41 @@
+.faq .section-box {
+    margin-top: 5p auto;
+    margin-bottom: 0;
+    padding: 0 70px;
+}
+
+.faq .first {
+    margin-top: 100px;
+}
+
+    .faq .section-box ul {
+    margin: 10px auto 10px 80px;
+    font-size: var(--font-size-medium-to-small);
+    list-style: square;
+    font-family: 'Titillium';
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    }
+
+        .faq .section-box ul li {
+            color: var(--color-red);
+        }
+
+        .faq .section-box ul li span {
+            color: var(--color-chalk-blue);
+            font-size: var(--font-size-medium-to-small);
+            font-family: 'Titillium';
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.56;
+            letter-spacing: normal;
+        }
+
+.normal {
+    font-weight: normal;
+    padding-bottom: 70px;
+}
