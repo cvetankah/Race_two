@@ -272,18 +272,6 @@
                 margin-top: 30px;
                 padding: 10px 20px;
             }
-.sponsor .three-boxes {
-    padding: 0 50px;
-}
-.sponsor .three-boxes-box {
-    width: 340px;
-    height: 400px;
-}
-
-.sponsor .three-boxes .para-wrap {
-    height: 200px;
-}
-
 
 .horizontal-boxes {
     display: flex;
