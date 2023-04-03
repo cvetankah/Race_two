@@ -206,8 +206,9 @@
 }
 
 .expectations .three-boxes-box {
-    height: 403px;
+    height: 470px;
     background-color: var(--color-red);
+    position: relative;
 }
 
     .expectations .three-boxes-box img {
@@ -220,37 +221,69 @@
         position: relative;
     }
 
-    .expectations .three-boxes-box h3 {
-        color: var(--color-white);
-        margin: auto;
-        font-size: var(--font-size-medium);
-        font-family: 'Titillium';
-        padding: 20px 30px;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.25;
-        letter-spacing: normal;
-        text-align: center;
-    }
-
-    .expectations .three-boxes-box .para-wrap {
-        width: 100%;
-        height: 213px;
-        border-bottom-right-radius: 30px;
-        background-color: var(--color-reddish);
-    }
-    
-        .expectations .three-boxes-box p {
+        .three-boxes-box .leg {
+            font-size: var(--font-size-small);
             color: var(--color-white);
-            margin: auto;
+            font-weight: normal;
+            display: flex;
+            justify-content: center;
+            font-family: 'Titillium';
             font-stretch: normal;
             font-style: normal;
-            line-height: 1.5;
+            line-height: 2.33;
             letter-spacing: normal;
-            margin-top: 30px;
-            padding-top: 20px;
-            padding-bottom: 20px;
+            text-align: center;
+            padding: 0;
+            padding-top: 0px;
         }
+
+        .expectations .three-boxes-box h3 {
+            color: var(--color-white);
+            margin: auto;
+            font-size: var(--font-size-medium);
+            font-family: 'Titillium';
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.25;
+            letter-spacing: normal;
+            text-align: center;
+            width: 239px;
+            height: 60px;
+            padding: 0 10px;
+        }
+
+        .expectations .three-boxes-box .para-wrap {
+            width: 100%;
+            height: 270px;
+            border-bottom-right-radius: 30px;
+            background-color: var(--color-reddish);
+            position: absolute;
+            bottom: 0;
+        }
+    
+            .para-wrap p {
+                color: var(--color-white);
+                margin: auto;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.5;
+                letter-spacing: normal;
+                margin-top: 30px;
+                padding: 10px 20px;
+            }
+.sponsor .three-boxes {
+    padding: 0 50px;
+}
+.sponsor .three-boxes-box {
+    width: 340px;
+    height: 400px;
+}
+
+.sponsor .three-boxes .para-wrap {
+    height: 200px;
+}
+
 
 .horizontal-boxes {
     display: flex;

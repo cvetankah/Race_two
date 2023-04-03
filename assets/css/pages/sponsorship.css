@@ -55,6 +55,24 @@
     padding-top: 50px;
 }
 
+    .sponsor .three-boxes .three-boxes-box h3 {
+        padding: 0 30px;
+        width: auto;
+        height: auto;
+    }
+
+    .sponsor .three-boxes {
+        padding: 0 50px;
+    }
+    .sponsor .three-boxes-box {
+        width: 340px;
+        height: 400px;
+    }
+    
+    .sponsor .three-boxes .para-wrap {
+        height: 200px;
+    }
+
 .testemonials {
     padding-top: 50px;
     padding-bottom: 50px;
