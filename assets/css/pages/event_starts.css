@@ -91,8 +91,9 @@
 .race_2023 button {
     display: flex;
     align-items: center;
-    width: 15%;
-    margin: 0px auto 30px auto;
+    width: 307px;
+    height: 62px;
+    margin: 0px auto 100px auto;
 }
 
 .section-box-listing .image,
@@ -102,10 +103,21 @@
 }
 
 .programme button {
-    padding: 10px 0px;
-    width: 20%;
+    width: 411px;
+    height: 62px;
     display: flex;
     justify-content: center;
     margin: auto;
     margin-top: 50px;
+}
+
+.programme button a {
+    font-family: 'Titillium';
+    font-size: var(--font-size-medium-to-small);
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #fff;
 }
