@@ -1,0 +1,32 @@
+.privacy .section-box {
+    margin-top: 100px;
+    margin-bottom: 5px;
+    padding: 0 30px;
+    padding-bottom: 50px;
+}
+
+.privacy_policy div {
+    font-size: var(--font-size-medium-to-small);
+    color: var(--color-chalk-blue);
+    font-family: 'Titillium';
+    margin: 30px auto;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    padding: 0 70px
+}
+
+    .privacy_policy div p {
+        margin: 30px auto;
+    }
+
+    .privacy_policy h5 {
+        font-size: var(--font-size-medium);
+    }
+
+.privacy .hosting {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
