@@ -102,3 +102,7 @@ h2 {
     letter-spacing: normal;
     margin: 0 672.1px 37px 0;
 }
+
+.event_starts .heading {
+    padding-top: 70px;
+}

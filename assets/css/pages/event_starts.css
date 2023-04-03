@@ -1,0 +1,111 @@
+.hero-bottom-box-text .event {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.section-box {
+    padding: 0 70px;
+}
+
+    .hero-bottom-box .top {
+        margin-top: 70px;
+        padding-top: 100px;
+        border-top-left-radius: 54px;
+    }
+
+        .hero-bottom-box .section-box img {
+            /* width: 100px; */
+            padding: 0px 10px;
+        }
+
+        .red-blue-boxes {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: -155px;
+            padding: 0 70px;
+            list-style: none;
+        }
+
+            .red-box,
+            .blue-box {
+                position: relative;
+                text-align: center;
+                max-width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+            }
+
+                .red-box span, 
+                .blue-box span {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    font-size: 60px;
+                    color: var(--color-white);
+                    font-weight: bold;
+                }
+
+                    .red-box-span {
+                        display: flex;
+                        justify-content: center;
+                        color: var(--color-chalk-blue);
+                        text-transform: uppercase;
+                        font-weight: bold;
+                        font-size: var(--font-size-medium-to-small);
+                        font-family: 'Titillium';
+                        padding-top: 10px;
+                    }
+
+    .event_starts .heading {
+        margin-top: 30px;
+    }
+    
+        .event_starts .sub-heading {
+            margin: auto;
+            margin-bottom: 30px;
+        }
+
+            .hero-bottom-box p {
+                font-size: var(--font-size-medium);
+            }
+    
+.race_2023 h2 {
+    text-align: center;
+    margin: auto;
+}
+
+.section-box-listing .getsetgo img {
+    display: block;
+    width: 30%;
+    margin: 20px auto 0 auto;
+    padding-bottom: 0;
+}
+
+.race_2023 button {
+    display: flex;
+    align-items: center;
+    width: 15%;
+    margin: 0px auto 30px auto;
+}
+
+.section-box-listing .image,
+.programme .image {
+    width: 5%;
+    padding: 0;
+}
+
+.programme button {
+    padding: 10px 0px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+}
