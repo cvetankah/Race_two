@@ -1,0 +1,59 @@
+.past .triangle-down {
+    margin-top: -100px;
+}
+.past .text {
+    margin: 0   ;
+}
+.past .heading {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+}
+.past .horizontal-boxes img {
+    width: 580px;
+    height: 580px;
+    border-top-left-radius: 54px;
+}
+
+.past .section-box {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    border-top-left-radius: 54px;
+    border-bottom-right-radius: 54px;
+    margin-top: 100px;
+}
+
+.past .horizontal-boxes button img {
+    width: 7%;
+    height: auto;
+}
+
+.past .horizontal-boxes button {
+    width: 200px;
+    height: 55px;
+}
+
+.past .horizontal-boxes button a {
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.white .horizontal-boxes img {
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 54px;
+}
+
+.past .grey {
+    background-color: var(--color-light-background);
+}
+
+.two {
+    margin-top: 0px;
+    padding-top: 50px;
+}
