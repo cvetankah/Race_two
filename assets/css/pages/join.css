@@ -1,0 +1,33 @@
+.triangle-down {
+    margin-top: -70px;
+}
+
+.join_2023 .heading {
+    margin-top: 50px;
+}
+
+.join_2023 .three-boxes {
+    padding-bottom: 0;
+}
+
+.prog_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+    .prog_button .racer {
+        width: 273px;
+        height: 62px;
+        margin-left: 165px;
+    }
+
+        .prog_button .racer img {
+            width: 7%;
+        }
+        
+    .prog_button .manager {
+        width: 373px;
+        height: 62px;
+    }
