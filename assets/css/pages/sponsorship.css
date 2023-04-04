@@ -4,6 +4,10 @@
     padding: 70px 70px;
 }
 
+.sponsorship h2 {
+    margin-top: 30px;
+}
+
     .sponsorship p {
         color: var(--color-chalk-blue);
         font-size: var(--font-size-extra-large);
