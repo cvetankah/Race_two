@@ -14,7 +14,6 @@
         color: var(--color-white);
         margin: 20px 0;
         font-size: var(--font-size-medium);
-        font-family: 'Titillium';
         font-weight: 300;
         width: 508px;
     }
@@ -25,7 +24,6 @@
         line-height: 40px;
         font-weight: bold;
         font-size: var(--font-size-extra-large);
-        font-family: 'Titillium';
         height: 88px;
         width: 342px;
     }
@@ -35,21 +33,21 @@
     }
 
 .hero-bottom-box-text {
-    margin: auto;
-    padding: 0px 70px;
+    margin: 0 auto;
     line-height: 1.22;
+    padding: 0px 70px;
 }
     
         .hero-bottom-box p {
             color: var(--color-chalk-blue);
             margin: 20px 0;
             font-size: var(--font-size-extra-large);
-            font-family: 'Titillium';
             font-weight: normal;
             font-stretch: normal;
             font-style: normal;
             letter-spacing: normal;
             padding-bottom: 100px;
+            font-family: 'Titillium', sans-serif;
         }
     
             .hero-bottom-box-bold {
@@ -120,6 +118,73 @@
 
     .right {
         margin-left: 20px;
+    }
+
+    @media (max-width: 450px) {
+        .hero-middle {
+            background-color: var(--color-chalk-blue);
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+            width: 450px;
+        }
+
+        .hero-middle-img {
+            width: 350px;
+            margin: 50px auto 30px auto;
+        }
+
+        br {
+            display: none;
+        }
+
+        header .hero-middle {
+            margin: 0;
+            padding: 0;
+        }
+
+        .hero-middle p {
+            width: 340px;
+            height: 90px;
+            margin: auto;
+            font-weight: 300;
+        }
+
+        .hero-middle span {
+            width: 340px;
+            height: 72px;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        .hero-middle button {
+            width: 340px;
+            height: 48px;
+            margin: 45px auto;
+            padding: 0;
+        }
+
+        .hero-middle .header-button-red a {
+            font-size: var(--font-size-small);
+            align-items: center;
+            text-align: center;
+            }
+
+            .hero-middle .header-button-red a img {
+                width: 5%;
+            }
+
+            .hero-bottom-box-text .hero-bottom-box-background {
+                width: 300px;
+                padding: 0;
+                height: 191px;
+                margin: 0;
+            }
+
+            .bitmap {
+                width: 500px;
+                height: 200px;
+            }
     }
     
     

@@ -49,3 +49,15 @@ section {
 .partners {
     padding-top: 0;
 }
+
+@media (max-width: 450px) {
+    section {
+        width: 400px;
+        padding: 0px 0px;
+        margin: 0   ;
+    }
+
+    section .width-container {
+        gap: 0px;
+    }
+}

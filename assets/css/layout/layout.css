@@ -16,6 +16,8 @@ html, body {
     margin: 0 auto;
 }
 
-/* .section-box {
-    margin-top: 50px;
-} */
+@media (max-width: 450px) {
+    .width-container {
+       width: unset;
+    };
+}
