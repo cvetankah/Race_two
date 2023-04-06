@@ -12,12 +12,13 @@ html, body {
 }
 
 .width-container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
-@media (max-width: 450px) {
+@media only screen and (max-width: 450px) {
     .width-container {
-       width: unset;
+       padding: 0 15px;
     };
+  
 }

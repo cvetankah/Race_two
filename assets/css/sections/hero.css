@@ -2,21 +2,15 @@
     background-image: url(../../img/hero.png);
     /* background-image: linear-gradient(to bottom, #0e2da9, rgba(15, 46, 169, 0)),
     url(../../img/hero.png); */
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 900px;
 }
 
-@media (max-width: 450px) {
+@media only screen and (max-width: 450px) {
     .hero {
-        width: unset;
-        background-size: contain;
-        background-repeat: no-repeat;
-        /* margin: 0; */
-        /* margin-bottom: auto; */
-        height: 800px;
+        height: 354px;
+        background-size: 900px;
+        max-width: 450px;
     }
-
-    /* .hero .width-container {
-        padding: 0;
-    } */
 }
