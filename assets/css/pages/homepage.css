@@ -2,17 +2,6 @@
     background-color: transparent;
 }
 
-
-/* .hero-middle::before {
-    content: '';
-    display: block;
-    height: px;
-    width: 50px;
-    bottom: 25px;
-    left: 0;
-    position: relative;
-} */
-
 .hero-middle {
     width: unset;
     display: block;
