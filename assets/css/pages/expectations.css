@@ -184,6 +184,69 @@
     margin-bottom: 50px;
 }
 
+@media only screen and (max-width:450px) {
+    .three-boxes-box .leg {
+        margin: auto;
+        width: 164px;
+        height: 42px;
+    }
+    
+    .expectations .section-box {
+        margin-top: 0;
+    }
+
+    .expect ul {
+        flex-direction: column;
+    }
+
+        .expect .vertical_line {
+            display: none;
+        }
+
+        .expect li {
+            width: 100%;
+        }
+
+    .race-2023-programme .three-boxes .arrow {
+        display: none;
+    }
+
+    .race-2023-programme .three-boxes {
+        flex-direction: row;
+        overflow-x: hidden;
+        margin-left: -320px;
+        padding: 0 0px;
+        gap: 30px;
+    }
+    
+    .race-2023-programme .three-boxes-box {
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            width: 340px;
+        }
+
+            .race-2023-programme .box-bitmap {
+                width: 340px;
+                height: 340px;
+            }
+
+    .pick_race_track .three-boxes-box {
+        width: 340px;
+        height: 450px;
+    }
+
+        .pick_race_track .three-boxes-box .leg {
+            margin-bottom: 10px;
+            width: 300px;
+        }
+
+        .pick_race_track .three-boxes-box h3 {
+            width: auto;
+            margin: auto;
+            padding: 0;
+        }
+}
 
 
 
