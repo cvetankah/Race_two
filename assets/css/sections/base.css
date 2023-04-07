@@ -61,10 +61,13 @@ section {
         section .width-container {
             width: unset;
             gap: 0px;
+            padding: 0;
+            margin: 0;
         }
 
     .white {
         width: 450px;
+        margin: 0;
     }
 
     .red {
@@ -75,9 +78,15 @@ section {
     .blue {
         height: auto;
         width: 450px;
+        padding: 5px;
     }
 
     .div-bitmap {
+        width: 450px;
+    }
+
+    .why-sponsor {
+        background: white;
         width: 450px;
     }
 }

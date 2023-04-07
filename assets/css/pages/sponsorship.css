@@ -1,7 +1,7 @@
 .sponsorship {
     margin: auto;
     width: 100%;
-    padding: 70px 70px;
+    padding: 70px 70px 0 70px;
 }
 
 .sponsorship h2 {
@@ -11,7 +11,7 @@
     .sponsorship p {
         color: var(--color-chalk-blue);
         font-size: var(--font-size-extra-large);
-        font-family: 'Titillium';
+        font-family: 'Titillium-Web', sans-serif;
         margin-top: 20px;
         margin-bottom: 20px;
         line-height: 25px;
@@ -81,4 +81,73 @@
     padding-top: 50px;
     padding-bottom: 50px;
     height: auto;
+}
+
+.why-sponsor .triangle-down {
+    display: none;
+}
+
+@media only screen and (max-width: 450px) {
+
+    .sponsorship h2 {
+        width: 340px;
+        margin-top: 0;
+    }
+    .sponsorship p {
+        width: 340px;
+        margin: none;
+        padding-bottom: 70px;
+        padding-top: 34px;
+        padding-right: 20px;
+        font-size: var(--font-size-medium);
+    }
+
+    .sponsorship {
+        padding-bottom: 0;
+    }
+
+    .sponsors {
+        padding-bottom: 0;
+    }
+
+    .why-sponsor .section-box-listing {
+        margin-top: 0;
+    }
+
+        .listing-background-grey {
+            background-color: var(--color-light-background);
+        }
+
+    .why-sponsor-background {
+        background-image: none;
+        background: var(--color-light-background);
+        height: auto;
+        margin-bottom: 0;
+    }
+
+        .why-sponsor-background .section-box {
+            width: 100%;
+            height: auto;
+            padding: 0 30px;
+            border-top-left-radius: 20px;
+            border-bottom-right-radius: 30px;
+            background-color: var(--color-red);
+            margin: 0;
+            padding-bottom: 100px;
+            margin-bottom: 100px;
+        }
+
+        .why-sponsor-background .width-container {
+            padding: 0;
+        }
+
+        .why-sponsor .triangle-down {
+            display: flex;
+            border-left: 30px solid transparent;
+            border-right: 30px solid transparent;
+            border-top: 30px solid var(--color-white);
+            margin: 0px auto;
+            margin-top: -105px;
+            padding-bottom: 100px;
+        }
 }

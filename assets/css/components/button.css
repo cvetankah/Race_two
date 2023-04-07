@@ -176,4 +176,22 @@ a .header-button{
         .header-button-blue-two img {
             width: unset;
         }
+
+    .why-sponsor-background .button-blue {
+        padding: 15px;
+        width: 340px;
+        height: 48px;
+        margin: auto;
+}
+
+    .why-sponsor-background .button-blue a {
+        font-size: var(--font-size-small);
+        font-family: 'Titillium-Web', sans-serif;
+        margin: auto;
+        align-items: center;
+    }
+
+    .why-sponsor-background .button-blue img {
+        width: unset;
+    }
 }

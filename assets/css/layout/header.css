@@ -111,7 +111,8 @@
                     width: 40px;
                 }
 
-        .header-logo-left {
+        .header-logo-left,
+        .header-blue .header-logo-left {
             width: 100%;
         }
 
@@ -120,4 +121,19 @@
                 height: 92px;
                 margin-left: none;
             }
+
+.header-blue {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color-chalk-blue);
+    max-width: 450px;
+}
+
+/* .header-blue header {
+    background-image: none;
+    background: none;
+    display: none;
+} */
 }

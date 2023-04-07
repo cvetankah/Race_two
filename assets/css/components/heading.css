@@ -127,7 +127,8 @@ h2 {
     }
     
     .white .heading,
-    .past-events .heading {
+    .past-events .heading,
+    .testemonials .heading {
         padding: 100px 60px 50px 60px;
     }
 
