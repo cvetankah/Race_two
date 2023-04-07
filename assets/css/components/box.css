@@ -449,4 +449,24 @@
         .horizontal-boxes p {
             font-size: var(--font-size-medium-to-small);
         }
+
+.form .box {
+    width: 100%;
+    background: var(--color-white);
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-top: 100px;
+    
+    padding: 70px 70px;
+}
+
+    .form .box-grey {
+        background: var(--color-white);
+        height: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 30px;
+        padding: 2  0px 0;
+    }
 }

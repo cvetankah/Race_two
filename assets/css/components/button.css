@@ -194,4 +194,14 @@ a .header-button{
     .why-sponsor-background .button-blue img {
         width: unset;
     }
+
+    .form .button {
+        margin: 70px auto;
+        width: 280px;
+        height: 48px;
+    }
+
+        .form button a {
+            font-size: var(--font-size-medium-to-small);
+        }
 }

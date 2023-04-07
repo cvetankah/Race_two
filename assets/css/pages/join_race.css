@@ -7,7 +7,7 @@
     .join p {
         color: var(--color-chalk-blue);
         font-size: var(--font-size-extra-large);
-        font-family: 'Titillium';
+        font-family: 'Titillium-Web', sans-serif;
         margin-top: 20px;
         margin-bottom: 20px;
         line-height: 25px;
@@ -48,10 +48,10 @@
             margin-top: 20px;
         }
 
-    hr {
+    .form .box-grey hr {
         width: 90%;
         margin: auto;
-        margin-top: 50px;
+        margin-top: 60px;
         height: 1px;
         background-color: #cdcdcd;
         border: none;
@@ -61,7 +61,7 @@
     .box-grey ul div label {
         color: var(--color-chalk-blue);
         font-size: var(--font-size-medium-to-small);
-        font-family: 'Titillium';
+        font-family: 'Titillium-Web', sans-serif;
         font-weight: bold;
         font-stretch: normal;
         font-style: normal;
@@ -78,7 +78,7 @@
         .box-grey ul li span {
             color: var(--color-chalk-blue);
             font-size: var(--font-size-medium-to-small);
-            font-family: 'Titillium';
+            font-family: 'Titillium-Web', sans-serif;
             font-weight: bold;
             font-stretch: normal;
             font-style: normal;
@@ -100,7 +100,7 @@
                 margin-top: 10px;
                 color: var(--color-chalk-blue);
                 font-size: var(--font-size-small);
-                font-family: 'Titillium';
+                font-family: 'Titillium-Web', sans-serif;
                 font-weight: normal;
                 font-stretch: normal;
                 font-style: normal;
@@ -116,7 +116,7 @@
     .box-grey .bottom span {
         color: var(--color-chalk-blue);
         font-size: var(--font-size-small);
-        font-family: 'Titillium';
+        font-family: 'Titillium-Web', sans-serif;
         font-weight: normal;
         font-stretch: normal;
         font-style: normal;
@@ -166,7 +166,7 @@
             .box-grey ul div label {
                 color: var(--color-chalk-blue);
                 font-size: var(--font-size-small);
-                font-family: 'Titillium';
+                font-family: 'Titillium-Web', sans-serif;
                 font-weight: normal;
                 font-stretch: normal;
                 font-style: normal;
@@ -183,3 +183,40 @@
                 margin-left: 10px;
             }
 
+@media only screen and (max-width: 450px) {
+    .join p {
+        font-size: var(--font-size-large);
+        margin-top: 20px;
+        padding-bottom: 70px;
+        line-height: 25px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.22;
+        letter-spacing: normal;
+    }
+
+    .form-white {
+        margin-bottom: 100px;
+    }
+
+        .form .box-grey .div-form {
+            display: flex;
+            flex-direction: column;
+            width: 288px;
+            height: 44px;
+            margin-bottom: 50px;
+        }
+        .div-form br {
+            display: none;
+        }
+
+    .box-grey ul {
+        width: 100%;
+        margin-top: 450px;
+    }
+
+.form .box {
+    padding-bottom: 0;
+}
+}
