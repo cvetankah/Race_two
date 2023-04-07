@@ -143,4 +143,10 @@ h2 {
         padding: 30px 70px;
         padding-top: 100px;
     }
+
+    .sub-heading-faq {
+        margin: 0;
+        padding: 0px;
+        margin-top: 10px;
+    }
 }

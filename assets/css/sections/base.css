@@ -89,4 +89,8 @@ section {
         background: white;
         width: 450px;
     }
+
+    .faq {
+        margin-bottom: 70px;
+    }
 }

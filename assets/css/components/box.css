@@ -469,4 +469,8 @@
         border-top-left-radius: 30px;
         padding: 2  0px 0;
     }
+
+.faq .section-box {
+    margin-bottom: 50px;
+}
 }

@@ -3,7 +3,7 @@
 }
 
 .faq .section-box {
-    margin-top: 5px auto;
+    margin-top: 5px;
     margin-bottom: 0;
     padding: 0 70px;
 }
@@ -16,7 +16,7 @@
     margin: 10px auto 10px 80px;
     font-size: var(--font-size-medium-to-small);
     list-style: square;
-    font-family: 'Titillium';
+    font-family: 'Titillium-Web', sans-serif;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -31,7 +31,7 @@
         .faq .section-box ul li span {
             color: var(--color-chalk-blue);
             font-size: var(--font-size-medium-to-small);
-            font-family: 'Titillium';
+            font-family: 'Titillium-Web', sans-serif;
             font-weight: normal;
             font-stretch: normal;
             font-style: normal;
@@ -42,4 +42,20 @@
 .normal {
     font-weight: normal;
     padding-bottom: 70px;
+}
+
+@media only screen and (max-width: 450px) {
+
+    .triangle-down {
+        margin-bottom: 50px;
+    }
+
+    .faq .section-box {
+        padding: 0 30px;
+        margin: 10px auto;
+    }
+
+    .faq .section-box ul {
+        margin-left: 50px;
+        }
 }
