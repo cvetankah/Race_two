@@ -6,6 +6,10 @@
     padding-bottom: 30px;
 }
 
+.event_starts .hero-bottom-box {
+    margin-top: -100;
+}
+
 .event_starts .section-box {
     padding: 0 70px;
 }
@@ -59,7 +63,7 @@
                         text-transform: uppercase;
                         font-weight: bold;
                         font-size: var(--font-size-medium-to-small);
-                        font-family: 'Titillium';
+                        font-family: 'Titillium-Web', sans-serif;
                         padding-top: 10px;
                     }
 
@@ -114,10 +118,75 @@
 .programme button a {
     font-family: 'Titillium';
     font-size: var(--font-size-medium-to-small);
+    font-family: 'Titillium-Web', sans-serif;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
     color: #fff;
+}
+
+@media only screen and (max-width: 450px) {
+
+    .one .event_starts{
+        padding-bottom: 0;
+    }
+
+    .event_starts .hero-bottom-box-text {
+        padding: 0;
+    }
+
+    .event_starts .hero-bottom-box-text h2 {
+        margin-bottom: 150px;
+    }
+
+    .event_starts .section-box {
+        padding: 0 30px;
+    }
+
+        .hero-bottom-box .top {
+            padding-top: 100px;
+        }
+
+        .red-blue-boxes {
+            padding: 0 30px;
+            margin-top: -230px;
+        }
+
+            .red-box,
+            .blue-box {
+                width: 90px;
+                height: 27px;
+            }
+
+                .red-box span, 
+                .blue-box span {
+                    font-size: 30.3px;
+                    width: 51px;
+                    height: 31px;
+                }
+
+                    .red-box-span {
+                        margin-top: 20px;
+                        font-size: var(--font-size-small);
+                        padding-top: 10px;
+                    }
+
+        .event_starts .heading {
+            padding: 100px 0px 0 0px;
+        }
+
+        .race_2023 h2 {
+            text-align: center;
+            margin: 70px auto 0 auto;
+        }
+
+            .section-box-listing .getsetgo img {
+                display: block;
+                width: 100%;
+                margin: 20px auto 0 auto;
+                padding: 0 30px;
+            }
+
 }
