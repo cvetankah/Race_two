@@ -12,7 +12,7 @@
 .privacy_policy div {
     font-size: var(--font-size-medium-to-small);
     color: var(--color-chalk-blue);
-    font-family: 'Titillium';
+    font-family: 'Titillium-Web', sans-serif;
     margin: 30px auto;
     font-weight: normal;
     font-stretch: normal;
@@ -33,4 +33,22 @@
 .privacy .hosting {
     margin-top: 0;
     margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 450px) {
+
+    .privacy {
+        padding: 100px 0;
+    }
+    .privacy .section-box {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        padding: 0 30px;
+        padding-bottom: 50px;
+    }
+
+        .privacy_policy div {
+            margin: 0;
+            padding: 0 30px
+        }
 }
