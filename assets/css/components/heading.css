@@ -132,8 +132,13 @@ h2 {
         padding: 100px 60px 50px 60px;
     }
 
+    .agenda .heading {
+        padding: 70px 70px 50px 70px;
+    }
+
     .white .sub-heading,
-    .past-events .sub-heading {
+    .past-events .sub-heading,
+    .agenda .sub-heading {
         padding-left: 70px;
         padding-right: 70px;
         padding-bottom: 70px;
