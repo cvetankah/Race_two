@@ -31,3 +31,31 @@
         width: 373px;
         height: 62px;
     }
+
+.join_2023 .highlights {
+    display: none;
+}
+
+@media only screen and (max-width: 450px) {
+    .join_2023 .three-boxes {
+        margin: auto;
+        width: 400px;
+        padding: 0 20px;
+    }
+
+    .prog_button {
+        display: none;
+    }
+
+    .join_2023 .highlights {
+        display: block;
+        width: 340px;
+        height: 48px;
+        margin: auto;
+        padding: 0 20px;
+    }
+    
+    .join_2023 .highlights a {
+        font-size: var(--font-size-extra-small);
+    }
+}

@@ -129,7 +129,7 @@ h2 {
     .white .heading,
     .past-events .heading,
     .testemonials .heading,
-    .join_2023 {
+    .join_2023 .heading {
         padding: 100px 60px 50px 60px;
     }
 
@@ -139,7 +139,8 @@ h2 {
 
     .white .sub-heading,
     .past-events .sub-heading,
-    .agenda .sub-heading {
+    .agenda .sub-heading,
+    .join_2023 .sub-heading {
         padding-left: 70px;
         padding-right: 70px;
         padding-bottom: 70px;
