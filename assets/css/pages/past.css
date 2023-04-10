@@ -47,6 +47,10 @@
                 text-align: center;
             }
 
+.past .header-button-red {
+    font-size: var(--font-size-small);
+}
+
 .white .horizontal-boxes img {
     border-top-left-radius: 0%;
     border-bottom-right-radius: 54px;

@@ -33,7 +33,7 @@ section {
     background: var(--color-red);
     padding: 0 70px;
     position: relative;
-    height: 544px;
+    height: 600px;
 }
 
 .blue {
@@ -76,6 +76,7 @@ section {
     .red {
         height: auto;
         width: 450px;
+        height: 550px;
     }
 
     .blue {

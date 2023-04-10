@@ -32,19 +32,15 @@
     border-bottom-right-radius: 15.6px;
     background-color: var(--color-red);
     cursor: pointer;
+    color: var(--color-white);
+    font-size: var(--font-size-medium);
+    font-family: 'Titillium-Web',sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
 }
 
-    .header-button-red a{
-        color: var(--color-white);
-        font-size: var(--font-size-medium);
-        font-family: 'Titillium-Web',sans-serif;
-        text-transform: uppercase;
-        text-decoration: none;
-        font-weight: bold;
-    }
-
     .header-button-red img {
-        width: 7%;
         margin-right: 10px;
     }
 
@@ -71,7 +67,7 @@
     border-top-left-radius: 15.6px;
     border-bottom-right-radius: 15.6px;
     width: 15%;
-    margin: 40px 70px;
+    margin: 0px 70px;
 }
 
     .header-button-blue {
@@ -95,18 +91,15 @@
     padding: 7px;
     border-top-left-radius: 15.6px;
     border-bottom-right-radius: 15.6px;
+    color: var(--color-white);
+    font-size: var(--font-size-medium);
+    font-family: 'Titillium-Web', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    width: 303px;
+    height: 24px;
+    margin: 70px 70px;
 }
-
-    .header-button-blue-two {
-        color: var(--color-white);
-        font-size: var(--font-size-medium);
-        font-family: 'Titillium-Web', sans-serif;
-        text-decoration: none;
-        font-weight: bold;
-        width: 303px;
-        height: 24px;
-        margin: 70px 70px;
-    }
 
     .header-button-blue-two img {
         margin-right: 10px;
@@ -115,16 +108,17 @@
     .why-sponsor-background .button-blue {
     background-color: var(--color-dark-blue);
     border: 2px solid var(--color-dark-blue);
-    padding: 5px;
+    padding: 20px;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    width: 30%;
+    width: 404px;
+    height: 62px;
     margin-left: 70px;
 }
 
-    .why-sponsor-background .button-blue a {
+    .why-sponsor-background .button-blue{
         color: var(--color-white);
-        font-size: var(--font-size-extra-extra-small);
+        font-size: var(--font-size-small);
         font-family: 'Titillium-Web', sans-serif;
         text-transform: uppercase;
         text-decoration: none;
@@ -195,7 +189,7 @@
 
     .form .button {
         margin: 70px auto;
-        width: 280px;
+        width: 320px;
         height: 48px;
     }
 
