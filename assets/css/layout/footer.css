@@ -1,8 +1,13 @@
 footer {
+    display: block;
+    width: 100%;
+    padding: 0 70px;
+}
+
+.footer-top {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 0 70px;
+    position: relative;
 }
 
     .footer-left,
@@ -15,7 +20,7 @@ footer {
         font-family: 'Titillium-Web', sans-serif;
         list-style: none;
         line-height: 1.44;
-        margin-left: 80px;
+        margin-left: 70px;
         margin-top: 30px;
         font-weight: normal;
         font-stretch: normal;
@@ -45,6 +50,8 @@ footer {
     .footer-right {
         width: 276px;
         height: 135px;
+        position: absolute;
+        right: 0;
     }
     .footer-right img {
         margin-top: 30px;
@@ -53,19 +60,21 @@ footer {
     }
 
 .footer-bottom {
-    display: inline-block;
+    display: block;
     color: white;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 20px 70px;
+    padding: 50px 0px;
+    width: 100%;
 }
 
     .footer-bottom-icons {
         display: flex;
         flex-direction: row;
         justify-content: left;
-        gap: 50px;
+        gap: 60px;
         padding: 0 70px;
+        padding-bottom: 20px;
     }
 
     .footer-bottom-links {
@@ -118,10 +127,11 @@ footer {
             width: 311px;
             height: 152px;
             margin: auto;
-        }
+            }
 
         .footer-left {
-            padding: 0 50px;
+            padding: 0 0px;
+            padding-top: 100px;
             flex-direction: column;
             width: 255px;
             height: 130px;
