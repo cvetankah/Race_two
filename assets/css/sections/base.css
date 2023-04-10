@@ -40,6 +40,9 @@ section {
     background: var(--color-chalk-blue);
     padding: 5px;
     position: relative;
+    height: 380px;
+    width: 100%;
+    /* padding: 0 70px; */
 }   
 
 .past-events {

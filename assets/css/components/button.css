@@ -6,12 +6,12 @@
     border-bottom-right-radius: 10px;
 }
 
-a .header-button img {
+.header-button img {
     width: 10%;
     margin-right: 10px;
 }
 
-a .header-button{
+.header-button{
     text-decoration: none;
     margin: 0 5px;
     color: var(--color-white);
@@ -34,7 +34,7 @@ a .header-button{
     cursor: pointer;
 }
 
-    .header-button-red a {
+    .header-button-red a{
         color: var(--color-white);
         font-size: var(--font-size-medium);
         font-family: 'Titillium-Web',sans-serif;
@@ -74,17 +74,18 @@ a .header-button{
     margin: 40px 70px;
 }
 
-    .header-button-blue a {
+    .header-button-blue {
         color: var(--color-white);
-        font-size: var(--font-size-extra-small);
+        font-size: var(--font-size-medium);
         font-family: 'Titillium-Web', sans-serif;
         text-transform: uppercase;
         text-decoration: none;
         font-weight: bold;
+        width: 258px;
+        height: 62px;
     }
 
     .header-button-blue img {
-        width: 10%;
         margin-right: 10px;
     }
 
@@ -94,11 +95,9 @@ a .header-button{
     padding: 7px;
     border-top-left-radius: 15.6px;
     border-bottom-right-radius: 15.6px;
-    width: 40%;
-    margin: 40px 70px;
 }
 
-    .header-button-blue-two a {
+    .header-button-blue-two {
         color: var(--color-white);
         font-size: var(--font-size-medium);
         font-family: 'Titillium-Web', sans-serif;
@@ -106,11 +105,10 @@ a .header-button{
         font-weight: bold;
         width: 303px;
         height: 24px;
-        margin: 0 0 0 16px;
+        margin: 70px 70px;
     }
 
     .header-button-blue-two img {
-        width: 5%;
         margin-right: 10px;
     }
 
@@ -168,8 +166,8 @@ a .header-button{
         margin: 40px auto;
     }
     
-        .header-button-blue-two a {
-            font-size: var(--font-size-small);
+        .header-button-blue-two {
+            font-size: var(--font-size-medium-to-small);
             margin: auto;
         }
     

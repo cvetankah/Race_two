@@ -106,18 +106,14 @@
     padding: 0;
 }
 
-.programme button {
-    width: 411px;
+.programme a {
+    width: 430px;
     height: 62px;
     display: flex;
     justify-content: center;
     margin: auto;
     margin-top: 50px;
-}
-
-.programme button a {
-    font-family: 'Titillium';
-    font-size: var(--font-size-medium-to-small);
+    font-size: var(--font-size-medium);
     font-family: 'Titillium-Web', sans-serif;
     font-weight: bold;
     font-stretch: normal;
